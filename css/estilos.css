@@ -1,0 +1,151 @@
+
+.blog-music {
+  background-color: #c3cccd;
+}
+
+.encabezado {
+  margin-top: 0;
+  background-color: #47b3c3;
+}
+
+.logo-encabezado {
+  width:100%;
+  margin-top:10px;
+  margin-bottom: 5px;
+}
+
+.container.navbar{
+  margin-bottom: 0;
+}
+
+.container .redes-sociales a img{
+  margin-top:180px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.navbar {
+  margin:2px;
+  background-color: #5d1908;
+}
+
+.contenedor-boton-navbar {
+  margin:5px 0;
+}
+
+.contenedor-boton-navbar .boton-navbar {
+  background-color: #b92c0c;
+  border-color: #b92c0c;
+}
+
+.container.contenido {
+  padding: 0;
+  margin-top: 10px;
+}
+
+.contenedor-contenido {
+  background-color: #fbebc8;
+  padding-top:10px;
+}
+
+.contenedor-texto-articulo h3 {
+  margin-top: 0;
+}
+
+.contenedor-imagen-articulo .imagen-articulo {
+  width:100%;
+  display:inline;
+  margin:5px 0;
+}
+
+.contenedor-texto-articulo p {
+  background-color: transparent;
+  border-color: transparent;
+  width:100%;
+  padding:0;
+  margin:5px 0;
+  display:inline;
+}
+
+.contenedor-comentario {
+  padding:0;
+  margin:8px 0;
+}
+
+.contenedor-comentario .contenedor-icono-comentario{
+  padding-right: 0;
+  margin:10px 0;
+}
+
+.contenedor-icono-comentario img {
+  height: 30px;
+  margin: 0;
+  padding:0;
+}
+
+.contenedor-comentario .contenedor-texto-comentario {
+  padding:0;
+  margin:10px 0;
+}
+
+.contenedor-texto-comentario form {
+  padding-right: 10px;
+}
+
+.contenedor-texto-comentario form textarea {
+  border-radius: 20px;
+  background-color: transparent;
+  border-color: #928f8c;
+  height: 30px;
+  margin: 0;
+  padding-top:4px;
+  padding-left:15px;
+}
+
+.container.contenido .contenedor-buscador {
+  background-color: #c02e0c;
+  padding-left:10px;
+  padding-top:10px;
+  min-height: 630px;
+}
+
+.has-search .form-control-feedback {
+    right: initial;
+    left: 0;
+    color: #2d2d2c;
+}
+
+.contenedor-buscador form input {
+  border-radius: 10px;
+  margin:10px 0;
+}
+
+.contenedor-buscador form input.form-control{
+  padding-left:30px;
+}
+
+.contenedor-buscador ul li{
+  height:60px;
+  margin:5px;
+  padding-top: 20px;
+}
+
+@media (max-width:600px) {
+  .container .redes-sociales a img{
+    margin-top:5px;
+    margin-bottom: 5px;
+  }
+
+  .contenedor-icono-comentario img {
+    display:inline-block;
+    width:30px;
+  }
+
+  .contenedor-texto-comentario form textarea {
+    width:90%;
+    padding-left: 15px;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+
+}
